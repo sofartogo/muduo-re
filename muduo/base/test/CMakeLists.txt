@@ -1,0 +1,43 @@
+add_executable(Timestamp_unittest Timestamp_unittest.cc)
+target_link_libraries(Timestamp_unittest muduo_base)
+
+add_executable(Date_unittest Date_unittest.cc)
+target_link_libraries(Date_unittest muduo_base)
+
+add_executable(Exception_unittest Exception_unittest.cc)
+target_link_libraries(Exception_unittest muduo_base)
+
+add_executable(ProcessInfo_unittest ProcessInfo_unittest.cc)
+target_link_libraries(ProcessInfo_unittest muduo_base)
+
+add_executable(Atomic_unittest Atomic_unittest.cc)
+target_link_libraries(Atomic_unittest muduo_base)
+
+add_executable(BlockingQueue_unittest BlockingQueue_unittest.cc)
+target_link_libraries(BlockingQueue_unittest muduo_base)
+
+add_executable(Mutex_unittest Mutex_unittest.cc)
+target_link_libraries(Mutex_unittest muduo_base)
+
+add_executable(Fork_unittest Fork_unittest.cc)
+target_link_libraries(Fork_unittest muduo_base)
+
+add_executable(Thread_bench Thread_bench.cc)
+target_link_libraries(Thread_bench muduo_base)
+
+add_executable(Thread_test Thread_test.cc)
+target_link_libraries(Thread_test muduo_base)
+
+add_executable(Singleton_test Singleton_test.cc)
+target_link_libraries(Singleton_test muduo_base)
+
+add_executable(ThreadLocal_test ThreadLocal_test.cc)
+target_link_libraries(ThreadLocal_test muduo_base)
+
+add_executable(ThreadLocalSingleton_test ThreadLocalSingleton_test.cc)
+target_link_libraries(ThreadLocalSingleton_test muduo_base)
+
+add_executable(ThreadPool_test ThreadPool_test.cc)
+target_link_libraries(ThreadPool_test muduo_base)
+
+

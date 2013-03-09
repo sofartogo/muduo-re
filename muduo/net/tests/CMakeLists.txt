@@ -1,0 +1,14 @@
+add_executable(EventLoop_unittest EventLoop_unittest.cc)
+target_link_libraries(EventLoop_unittest muduo_net muduo_base)
+
+add_executable(EventLoopThreadPool_unittest EventLoopThreadPool_unittest.cc)
+target_link_libraries(EventLoopThreadPool_unittest muduo_net muduo_base)
+
+add_executable(TimerQueue_unittest TimerQueue_unittest.cc)
+target_link_libraries(TimerQueue_unittest muduo_net muduo_base)
+
+add_executable(EchoServer EchoServer.cc)
+target_link_libraries(EchoServer muduo_net muduo_base)
+
+add_executable(EchoClient EchoClient.cc)
+target_link_libraries(EchoClient muduo_net muduo_base)
